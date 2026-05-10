@@ -1,0 +1,21 @@
+package br.com.fiap.produtosms.service;
+
+import br.com.fiap.produtosms.entities.Produto;
+
+import java.util.List;
+import java.util.NoSuchElementException;
+import java.util.UUID;
+
+public interface ProdutoService {
+
+    /**
+     * Busca um produto pelo código. Lança {@link NoSuchElementException} se não encontrado.
+     */
+    Produto findById(UUID id);
+
+    List<Produto> findAll();
+
+    void saveOrUpdate(Produto produto);
+
+    void deleteById(UUID id);
+}
