@@ -8,9 +8,6 @@ import java.math.BigDecimal;
 import java.util.List;
 import java.util.UUID;
 
-/**
- * DTO for {@link Produto}
- */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public record ProdutoDto(UUID id, String nome, String descricao, BigDecimal preco, String categoria)
         implements Serializable {

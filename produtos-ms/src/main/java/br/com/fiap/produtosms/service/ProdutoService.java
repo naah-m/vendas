@@ -8,9 +8,6 @@ import java.util.UUID;
 
 public interface ProdutoService {
 
-    /**
-     * Busca um produto pelo código. Lança {@link NoSuchElementException} se não encontrado.
-     */
     Produto findById(UUID id);
 
     List<Produto> findAll();
