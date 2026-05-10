@@ -1,6 +1,11 @@
-# Java Advanced — CP4 e CP5
+# Java Advanced — CP5
 
-Repositório com os microserviços **vendas-ms** e **produtos-ms**, desenvolvidos ao longo das aulas de Java Advanced (FIAP).
+Repositório com os microserviços **vendas-ms** e **produtos-ms**, desenvolvidos ao longo das aulas de Java Advanced.
+
+## Integrantes do Grupo
+
+- Nathália Mantovani de Falco RM 99904
+- João Victor Madella RM 561007
 
 ---
 
